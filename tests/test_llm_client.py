@@ -77,6 +77,27 @@ class LLMClientParsingTests(unittest.TestCase):
 
         self.assertIn("GROQ_API_KEY", str(exc.exception))
 
+    @patch("services.llm_client.request.Request")
+    @patch("services.llm_client.request.urlopen")
+    def test_post_json_sets_stable_user_agent(self, _mock_urlopen, mock_request):
+        _mock_urlopen.return_value.__enter__.return_value.read.return_value = b"{}"
+
+        client = GroqClient(
+            api_key="test-groq-key",
+            base_url="https://api.groq.com/openai/v1",
+            default_model="llama-3.3-70b-versatile",
+        )
+        client.post_json(
+            "https://api.groq.com/openai/v1/responses",
+            {"model": "llama-3.3-70b-versatile", "input": "Ping."},
+            {"Content-Type": "application/json"},
+            "Groq",
+        )
+
+        headers = mock_request.call_args.kwargs["headers"]
+        self.assertEqual(headers["User-Agent"], "PromptPilot/1.0")
+        self.assertEqual(headers["Accept"], "application/json")
+
 
 if __name__ == "__main__":
     unittest.main()

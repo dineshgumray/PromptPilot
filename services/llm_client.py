@@ -60,14 +60,19 @@ def extract_anthropic_text(payload):
 
 
 class BaseHTTPClient:
+    DEFAULT_USER_AGENT = "PromptPilot/1.0"
+
     def __init__(self, timeout=120):
         self.timeout = timeout
 
     def post_json(self, url, payload, headers, provider_name):
+        request_headers = dict(headers)
+        request_headers.setdefault("Accept", "application/json")
+        request_headers.setdefault("User-Agent", self.DEFAULT_USER_AGENT)
         req = request.Request(
             url,
             data=json.dumps(payload).encode("utf-8"),
-            headers=headers,
+            headers=request_headers,
             method="POST",
         )
 
@@ -76,7 +81,7 @@ class BaseHTTPClient:
                 return json.loads(response.read().decode("utf-8"))
         except error.HTTPError as exc:
             message = exc.read().decode("utf-8", errors="ignore") or exc.reason
-            raise LLMClientError(f"{provider_name} rejected the request: {message}") from exc
+            raise LLMClientError(f"{provider_name} rejected the request ({exc.code}): {message}") from exc
         except error.URLError as exc:
             raise LLMClientError(
                 f"Could not reach {provider_name}. Check the configured base URL and network access."

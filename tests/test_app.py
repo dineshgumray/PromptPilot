@@ -73,7 +73,7 @@ class PromptPilotAppTests(unittest.TestCase):
         self.assertIn(b"Delete profile", response.data)
         self.assertIn(b"brand/logo.png", response.data)
         self.assertIn(b"Goals (optional)", response.data)
-        self.assertIn(b'id="provider-field" class="hidden"', response.data)
+        self.assertIn(b'id="provider-field">', response.data)
         self.assertIn(b"generate-only is-hidden", response.data)
         self.assertIn(b"prompt-mode", response.data)
         self.assertNotIn(b"Generate the right prompt once", response.data)

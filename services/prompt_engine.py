@@ -20,7 +20,7 @@ USE_CASE_GUIDANCE = {
 
 PROVIDER_GUIDANCE = {
     "ollama": "Keep the prompt explicit and compact so smaller local models can follow it reliably.",
-    "groq": "Use a crisp, direct structure and keep the output contract explicit. Groq's hosted models reward tight instructions.",
+    "groq": "Use a crisp, direct structure and keep the output contract explicit.",
     "chatgpt": "Use strong structure, put the goal first, and ask for the final answer directly.",
     "gemini": "Ground the response in context and request a clear, practical output shape.",
     "claude": "Favor careful prose, nuanced reasoning, and concise assumptions when details are missing.",

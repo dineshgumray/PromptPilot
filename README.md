@@ -112,6 +112,8 @@ python app.py
 
 Then choose `Generate final output` in the UI and select `Groq`.
 
+If Groq rejects the request, the app now shows the raw API error in the output panel. A `403` with `error code: 1010` usually means the request was blocked by the network path or account access, so check the Groq key, deployment host, and region.
+
 ### Option 4: Docker Compose
 
 ```powershell

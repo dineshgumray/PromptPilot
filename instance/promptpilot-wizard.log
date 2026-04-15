@@ -128,3 +128,693 @@ Prompt wizard
 - Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
 - Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
 
+[2026-04-15T15:46:55] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:51:49] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:52:04] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:52:09] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:52:47] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:52:53] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:56:54] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:57:01] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:58:11] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:58:58] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:59:03] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T15:59:08] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T16:00:14] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T16:01:20] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T16:01:54] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T16:02:13] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T18:23:09] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T18:24:24] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T18:24:45] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T18:24:58] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T18:25:19] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T18:25:24] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:28:17] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:32:17] Prompt wizard run
+user_id=4 user_name='D' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:33:37] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:33:51] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:34:51] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:35:26] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:36:09] Prompt wizard run
+user_id=4 user_name='D' provider=ollama mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:37:06] Prompt wizard run
+user_id=4 user_name='D' provider=ollama mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:37:23] Prompt wizard run
+user_id=4 user_name='D' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:45:46] Prompt wizard run
+user_id=4 user_name='D' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:46:47] Prompt wizard run
+user_id=4 user_name='D' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:47:27] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:47:51] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:47:56] Prompt wizard run
+user_id=3 user_name='i' provider=chatgpt mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:48:19] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:49:02] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:49:19] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:49:43] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:10] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:27] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:37] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:43] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:46] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:50] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:54] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:50:59] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:51:01] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:51:06] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:51:12] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:51:20] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:51:30] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:52:09] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:53:55] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:53:58] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:54:34] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:55:51] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:57:32] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T19:59:42] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:03:47] Prompt wizard run
+user_id=3 user_name='i' provider=chatgpt mode=generate use_case=general status=provider_error
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:06:08] Prompt wizard run
+user_id=3 user_name='i' provider=chatgpt mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:07:09] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:10:24] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:10:31] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:11:06] Prompt wizard run
+user_id=3 user_name='i' provider=ollama mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=84, analyst=83, compact-executor=79, goal-first=76. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: A smaller local model may benefit from a tighter prompt.; The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:11:31] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=prompt use_case=general status=prompt_ready
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:11:37] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+
+[2026-04-15T20:12:06] Prompt wizard run
+user_id=3 user_name='i' provider=groq mode=generate use_case=general status=generated
+selected_variant=style-led + critique selected_score=87
+Prompt wizard
+- Mutate: generated 4 prompt variants from the task and thinking styles.
+- Scoring: style-led=87, analyst=86, goal-first=79, compact-executor=61. Selected style-led + critique at 87.
+- Critique strengths: It uses enough profile context to avoid repeating the background.; It surfaces the reasoning style early.; It protects against missing critical details..
+- Critique gaps: The analyst variant is close enough to suggest the balance of brevity and context could still move..
+- Synthesize: The refined prompt won the iteration and replaced the original best draft. It was rescored at 87.
+

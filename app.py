@@ -479,10 +479,7 @@ def create_app(test_config=None):
                 status = "generated"
             except LLMClientError as exc:
                 status = "provider_error"
-                response_text = (
-                    f"Live generation failed for {prompt_request.target_provider}. "
-                    "Fix the provider configuration or use the optimized prompt manually."
-                )
+                response_text = str(exc)
                 handoff_note = str(exc)
 
         log_prompt_wizard(g.user["id"], g.user["name"], prompt_request, wizard_result, status)

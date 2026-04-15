@@ -10,10 +10,38 @@ function setStatus(text, kind) {
 }
 
 function copyText(text) {
-  if (!navigator.clipboard) {
-    return Promise.reject(new Error("Clipboard is not available in this browser."));
+  const value = String(text ?? "");
+
+  if (navigator.clipboard && window.isSecureContext) {
+    return navigator.clipboard.writeText(value).catch(() => fallbackCopyText(value));
   }
-  return navigator.clipboard.writeText(text);
+
+  return Promise.resolve().then(() => fallbackCopyText(value));
+}
+
+function fallbackCopyText(text) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.left = "-9999px";
+  textarea.style.top = "0";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+
+  try {
+    textarea.focus();
+    textarea.select();
+    textarea.setSelectionRange(0, textarea.value.length);
+
+    const copied = document.execCommand("copy");
+
+    if (!copied) {
+      throw new Error("Clipboard copy failed.");
+    }
+  } finally {
+    document.body.removeChild(textarea);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -99,33 +127,54 @@ document.addEventListener("DOMContentLoaded", () => {
     groq: {
       label: "Groq model",
       placeholder: "llama-3.3-70b-versatile",
+      defaultModel: "llama-3.3-70b-versatile",
     },
     ollama: {
       label: "Ollama model",
       placeholder: "llama3.2:3b",
+      defaultModel: "llama3.2:3b",
     },
     chatgpt: {
       label: "OpenAI model",
       placeholder: "gpt-4.1",
+      defaultModel: "gpt-4.1",
     },
     gemini: {
       label: "Gemini model",
       placeholder: "gemini-2.5-flash",
+      defaultModel: "gemini-2.5-flash",
     },
     claude: {
       label: "Claude model",
       placeholder: "claude-sonnet-4-20250514",
+      defaultModel: "claude-sonnet-4-20250514",
     },
   };
+
+  function syncModelForProvider(provider) {
+    const providerMeta = providerModelMeta[provider];
+
+    if (!providerMeta) {
+      return;
+    }
+
+    modelLabel.textContent = providerMeta.label;
+    modelInput.placeholder = providerMeta.placeholder;
+
+    if (modelInput.dataset.provider !== provider || !modelInput.value) {
+      modelInput.value = providerMeta.defaultModel;
+    }
+
+    modelInput.dataset.provider = provider;
+  }
 
   function refreshModeState() {
     const provider = providerSelect.value;
     const mode = modeSelect.value;
     const showModel = mode === "generate";
     const isGenerateMode = mode === "generate";
-    providerField.classList.toggle("hidden", !showModel);
+    providerField.classList.remove("hidden");
     modelField.classList.toggle("hidden", !showModel);
-    const providerMeta = providerModelMeta[provider];
 
     if (outputCard) {
       outputCard.classList.toggle("prompt-mode", !isGenerateMode);
@@ -137,12 +186,9 @@ document.addEventListener("DOMContentLoaded", () => {
       block.classList.toggle("is-hidden", !isGenerateMode);
     });
 
-    if (providerMeta) {
-      modelLabel.textContent = providerMeta.label;
-      modelInput.placeholder = providerMeta.placeholder;
-    }
+    syncModelForProvider(provider);
 
-    if (showModel && providerMeta) {
+    if (showModel) {
       return;
     }
   }
@@ -176,6 +222,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (data.status === "generated") {
         setStatus("Generated", "success");
+      } else if (data.status === "provider_error") {
+        setStatus("Provider error", "error");
       } else if (data.status === "handoff_required" || data.status === "prompt_ready") {
         setStatus("Prompt ready", "warning");
       } else {
